@@ -32,6 +32,6 @@ if __name__ == "__main__":
     product_id_lookup = generate_products(output_location, products_data)
 
     start_date = datetime(2018, 12, 1, 0, 0, 0)
-    end_date = datetime(2019, 5, 31, 23, 59, 59)
+    end_date = datetime(2019, 3, 1, 23, 59, 59)
     generate_transactions(output_location, gen_customers, products_data, product_id_lookup, products_cats_frequency,
                           start_date, end_date)
